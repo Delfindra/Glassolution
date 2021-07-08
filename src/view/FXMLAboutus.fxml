@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: #FFFFF0;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLAboutController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8a64b" height="99.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <Label fx:id="lblAboutus" layoutX="100.0" layoutY="14.0" text="About Us" textFill="IVORY">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageCoffee1" fitHeight="174.0" fitWidth="352.0" layoutX="143.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/coffee1.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblPlatform" layoutX="341.0" layoutY="148.0" text="KOPISINI" textFill="#e8a64b">
+         <font>
+            <Font name="Sitka Text Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDeskripsi" alignment="CENTER" layoutX="125.0" layoutY="200.0" prefHeight="200.0" prefWidth="543.0" text="KOPISINI adalah platform aplikasi yang ditujukan kepada para pelaku UKM di sektor perkopian untuk mempermudah mereka dalam memasarkan produknya, serta memperkenalkan kopi khas daerah setempat sebagai bagian dari keragaman kopi nusantara." textAlignment="CENTER" textFill="#6b6565" wrapText="true">
+         <font>
+            <Font name="Sitka Text" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back" layoutX="28.0" layoutY="35.0" mnemonicParsing="false" onAction="#handleBack" text="Back">
+         <font>
+            <Font name="Futura Md BT Medium" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
